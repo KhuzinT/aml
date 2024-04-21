@@ -1,0 +1,5 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.5s ease-in-out;
+}

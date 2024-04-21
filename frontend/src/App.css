@@ -1,0 +1,9 @@
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}

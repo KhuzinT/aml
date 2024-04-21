@@ -1,0 +1,44 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 300px;
+    min-height: 100vh;
+    height: 100%;
+    background: #141f35;
+    transition: margin 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.my-lists-text {
+    font-size: 18px;
+    color: white;
+}
+
+.aml-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.account-text {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.create-watchlist-text {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.favorite-text {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+

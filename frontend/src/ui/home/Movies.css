@@ -1,0 +1,33 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    background: transparent;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    align-self: center;
+    color: white;
+    position: relative;
+}
+
+.movie-card:hover {
+    background: #cecece;
+}
+
+.movie-card img {
+    max-width: 90%;
+    max-height: 80%;
+}
+
+.add-to-favorite {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-size: 36px;
+    border: 5px;
+}
